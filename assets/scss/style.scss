@@ -1,0 +1,37 @@
+@import 'partials/variables';
+@import 'partials/mixins';
+@import 'partials/extends';
+@import 'partials/headings';
+@import 'partials/nesting';
+
+
+b{
+	@include text;
+}
+
+em{
+	@include text;
+	font-weight: bold;
+	&:hover{
+		color:black;
+	}
+}
+
+.extend{
+	@extend %div-shared;
+	color:white;
+}
+
+.extend2{
+	@extend %div-shared;
+	color:black;
+}
+
+
+$base-color: #036;
+
+@for $i from 1 through 3 {
+  ul li:nth-child(3n + #{$i}) {
+    background-color: lighten($base-color, $i * 20%);
+  }
+}

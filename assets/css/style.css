@@ -1,0 +1,77 @@
+.extend, .extend2 {
+  background: green;
+  width: 50%;
+  height: 100px; }
+
+h1 {
+  color: green;
+  font-family: "Arial"; }
+
+h2 {
+  color: green;
+  font-family: "Arial"; }
+
+h3 {
+  color: green;
+  font-family: "Arial"; }
+
+h4 {
+  color: green;
+  font-family: "Arial"; }
+
+h5 {
+  color: green;
+  font-family: "Arial"; }
+
+h6 {
+  color: green;
+  font-family: "Arial"; }
+
+.test {
+  width: 50%;
+  height: 100px;
+  background-color: green; }
+
+.outerDiv {
+  width: 400px;
+  height: 100px;
+  background: red;
+  border: 10px dashed orange; }
+  .outerDiv .insiderDiv {
+    height: 75px;
+    width: 375px;
+    background: orange; }
+    .outerDiv .insiderDiv p {
+      color: green; }
+      .outerDiv .insiderDiv p span {
+        color: purple; }
+
+b {
+  font-family: "Arial";
+  font-size: 3em;
+  color: green; }
+
+em {
+  font-family: "Arial";
+  font-size: 3em;
+  color: green;
+  font-weight: bold; }
+  em:hover {
+    color: black; }
+
+.extend {
+  color: white; }
+
+.extend2 {
+  color: black; }
+
+ul li:nth-child(3n + 1) {
+  background-color: #0066cc; }
+
+ul li:nth-child(3n + 2) {
+  background-color: #3399ff; }
+
+ul li:nth-child(3n + 3) {
+  background-color: #99ccff; }
+
+/*# sourceMappingURL=style.css.map */

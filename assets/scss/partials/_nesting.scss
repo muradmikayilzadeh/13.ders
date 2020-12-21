@@ -1,0 +1,22 @@
+
+.outerDiv{
+	width:400px;
+	height:100px;
+    background:red;
+    border:10px #{$borderType} orange;
+
+	.insiderDiv{
+		height:75px;
+		width: 375px;
+		background:orange;
+
+		p{
+			color:green;
+			span{
+				color:purple;
+			}
+		}
+
+	}
+
+}
